@@ -1,0 +1,38 @@
+## --- Entity Framework Core Migrations ---
+# Ignores generated migration files as requested
+[Mm]igrations/
+
+## --- .NET / C# Build Outputs ---
+bin/
+obj/
+out/
+[Bb]uild/
+[Ll]og/
+[Ll]ogs/
+
+## --- Visual Studio & IDE Settings ---
+.vs/
+.vscode/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.userprefs
+*.workspace
+
+## --- User / Environment Secrets & Local Settings ---
+appsettings.Development.json
+appsettings.Local.json
+*.secrets.json
+
+## --- NuGet Packages ---
+*.nupkg
+*.snupkg
+packages/
+project.lock.json
+
+## --- Operating System Files ---
+.DS_Store
+Thumbs.db
+ehthumbs.db
+desktop.ini
